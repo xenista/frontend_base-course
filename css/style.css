@@ -1,0 +1,187 @@
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Roboto/roboto-v29-latin_cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Roboto/roboto-v29-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/roboto-v29-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/Roboto/roboto-v29-latin_cyrillic-regular.woff") format("woff"), url("../fonts/Roboto/roboto-v29-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/Roboto/roboto-v29-latin_cyrillic-regular.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+/* roboto-700 - latin_cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Roboto/roboto-v29-latin_cyrillic-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/Roboto/roboto-v29-latin_cyrillic-700.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto/roboto-v29-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/Roboto/roboto-v29-latin_cyrillic-700.woff") format("woff"), url("../fonts/Roboto/roboto-v29-latin_cyrillic-700.ttf") format("truetype"), url("../fonts/Roboto/roboto-v29-latin_cyrillic-700.svg#Roboto") format("svg");
+  /* Legacy iOS */
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+b {
+  font-weight: 700;
+}
+
+ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.page-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.response {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.response__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.form {
+  background: #F7F5F9;
+  border-radius: 12px;
+  padding: 40px;
+  -webkit-filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+  max-width: 481px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.form__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+
+.form__input {
+  background: #FFFFFF;
+  outline: none;
+  width: 100%;
+  margin-bottom: 25px;
+  border: none;
+  padding: 13px 15px;
+  -webkit-box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 20px;
+  border: 1px solid transparent;
+  -webkit-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #D0C9D6;
+}
+
+.form__input:-ms-input-placeholder {
+  color: #D0C9D6;
+}
+
+.form__input::-ms-input-placeholder {
+  color: #D0C9D6;
+}
+
+.form__input::placeholder {
+  color: #D0C9D6;
+}
+
+.form__input:focus, .form__input:hover {
+  border: 1px solid #854FC8;
+  -webkit-box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+}
+
+.form__button {
+  width: 100%;
+  font-size: 17px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #6979F8;
+  border-radius: 6px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.2s all linear;
+  transition: 0.2s all linear;
+}
+
+.form__button:hover {
+  background: #5264f7;
+}
+
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: none;
+}
+
+.modal__content {
+  max-width: 400px;
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 12px;
+  padding: 40px;
+  background: #F7F5F9;
+}
+
+.modal.modal--active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

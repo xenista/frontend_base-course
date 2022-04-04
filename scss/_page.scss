@@ -1,0 +1,29 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+b{
+    font-weight: 700;
+}
+ul{
+    list-style: circle;
+    padding-left: 20px;
+}
+li{
+    margin-bottom: 10px;
+}
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.response {
+    font-size: 18px;
+    line-height: 1.5;
+    &__title{
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+}
